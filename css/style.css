@@ -1,0 +1,157 @@
+/*ommon start*/
+
+    @font-face {
+        font-family:ubuntu-light;
+        src: url(../fonts/buntu/ubuntu-light.ttf);
+    }
+    @font-face {
+        font-family:playfair-display-regular;
+        src: url(../fonts/playfair_display/playfair-display-regular.ttf);
+    }
+
+    body{
+        margin: 0;
+        font-family:'Playfair Display', serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #626262;
+    }
+/*common end*/
+
+/*header start*/
+    header{
+        padding: 64px 0px;
+       
+        /* border: 1px solid red; */
+    }
+    .container{
+        margin: 0px auto;
+        width: 90%;
+        /* border: 1px solid red; */
+        overflow: hidden;
+        
+    }
+    .logo{
+        width: 11%;
+        /* border: 1px solid red; */
+        float: left;
+        margin-top: 4px;
+    }
+    .logo a{
+        display: block;
+       
+    }
+    .logo a img{
+        width: 100%;
+    }
+    .menu{
+        width: 60%;
+        /* border: 1px solid #00FF04; */
+        float: right;
+
+    }
+    .menu ul{
+        margin: 0;
+        float: right;
+      
+    }
+    .menu ul li{
+        list-style: none;
+        float: left;
+    }
+    .menu ul li a{
+        display: inline-block;
+        margin: 0px 50px;
+        padding: 5px 2px;
+        color: #626262;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: .33s;
+        border-bottom:transparent;     
+    }
+    .menu ul li:last-child a{
+        margin-right: 0px;
+    }
+    .menu ul li a:hover{
+        color: #626262;
+        border-bottom: 1px solid red;
+    }
+
+/*header end*/
+
+/*start banner*/
+    .banner {
+        padding: 30px 0px; 
+    }
+    .background_img {
+
+    }
+    .background_img img {
+        width: 100%;
+    /* border: 1px solid red; */
+    }
+/*end banner*/
+
+
+/*message start*/
+    .message{
+        padding: 80px 0px;
+    }
+    .container_2{
+        margin: 0px auto;
+        width: 80%;
+        overflow: hidden;
+
+    }
+    .light{
+        margin: 0px;
+        font-family: 'ubounto', sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        color:#b4ad9e ;
+        text-transform: uppercase;
+    }
+    .head{
+        font-size: 30px;
+        font-weight: 400;
+        margin: 20px 0px 30px;
+    }
+    .text{
+        margin: 0px;
+        line-height: 24px;
+
+    }
+    .mt_40{
+        margin-top:40px;
+    }
+/*message end*/
+
+/*about start*/
+    .about {
+        padding: 80px 0px;
+    }
+    .a_l {
+        width: 47%;
+        /* border: 1px solid red; */
+        float: left;
+    }
+    .a_l_img {
+
+    }
+    .a_l_img img {   
+        width: 100%;
+    }
+    .a_r {
+        width: 47%;
+        /* border: 1px solid red; */
+        float: right;
+    }
+    .a_r_img {}
+    .a_r_img img {
+        width: 100%;
+    }
+    .light_1 {
+        margin-top: 30px;
+    }
+/*about end*/
+
